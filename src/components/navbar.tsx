@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="flex py-4 bg-black items-center justify-around w-full text-white border-b-2 border-white">
+    <nav className="flex z-10 p-4 bg-transparent items-center justify-around text-white sticky shadow-md bg-opacity-30 top-0 backdrop-filter backdrop-blur-lg">
       <h1 className="font-bold text-3xl text-center font-merriweather">
         Gill&apos;s Barber Shop
       </h1>
