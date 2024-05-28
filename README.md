@@ -3,7 +3,7 @@
 ## TODO
 
 - [X] Navbar
-- [ ] Landing page
+- [X] Landing Section
 - [ ] About Us
 - [ ] Services
 - [ ] Contact Us

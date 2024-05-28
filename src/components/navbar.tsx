@@ -3,8 +3,8 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="flex py-4 bg-gray-900 items-center justify-around w-full text-white border-b-2 border-white">
-      <h1 className="font-bold text-3xl text-center">
+    <nav className="flex py-4 bg-black items-center justify-around w-full text-white border-b-2 border-white">
+      <h1 className="font-bold text-3xl text-center font-merriweather">
         Gill&apos;s Barber Shop
       </h1>
       <div className="flex items-center justify-center gap-10 font-semibold">
@@ -21,7 +21,7 @@ const Navbar = () => {
           Contact Us
         </Button>
       </div>
-      <Button variant="ghost" className="font-semibold">
+      <Button variant="secondary" className="font-semibold">
         Login / Signup
       </Button>
     </nav>

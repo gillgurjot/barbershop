@@ -1,9 +1,19 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Merriweather } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import { ThemeProvider } from "@/components/theme-provider";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
+
+const merriweather = Merriweather({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-merriweather",
+});
 
 export const metadata: Metadata = {
   title: "Gill Barber Shop",
@@ -17,9 +27,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
-        <Navbar />
-        {children}
+      <body className={`${montserrat.variable} ${merriweather.variable}`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar />
+
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
