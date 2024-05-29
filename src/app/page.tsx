@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import ContactUs from "@/components/contact";
 import Landing from "@/components/landing";
 import Reviews from "@/components/reviews";
 import Services from "@/components/services";
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <WhyUs />
       <Reviews />
+      <ContactUs />
     </div>
   );
 }

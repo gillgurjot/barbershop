@@ -17,11 +17,14 @@ const ReviewsCarousel = () => {
           delay: 4000,
         }),
       ]}
-      className="w-full cursor-grab pt-5"
+      className="w-full cursor-grab"
     >
       <CarouselContent className="-ml-1">
         {reviews.map((review) => (
-          <CarouselItem key={review.id} className="px-4 ">
+          <CarouselItem
+            key={review.id}
+            className="px-4 flex flex-col items-center justify-center"
+          >
             <div className="p-1">
               <p className="text-center text-lg">{review.comment}</p>
               <p className="text-center text-primary font-bold text-xl pt-2">

@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
   return (
     <nav className="flex z-10 p-4 bg-black/50 items-center justify-around text-white sticky shadow-md bg-opacity-30 top-0 backdrop-filter backdrop-blur-lg">
-      <h1 className="font-bold text-3xl text-center font-merriweather">
+      <h1 className="font-bold text-3xl text-center font-merriweather text-primary">
         Gill&apos;s Barber Shop
       </h1>
       <div className="flex items-center justify-center gap-10 font-semibold">

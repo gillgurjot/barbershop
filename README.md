@@ -8,7 +8,8 @@
 - [X] Services
 - [X] Why Us
 - [X] Reviews
-- [ ] Contact Us
+- [X] Contact Us
+- [ ] Toast
 - [ ] Footer
 - [ ] Make it responsive
 - [ ] Setup Database
