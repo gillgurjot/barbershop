@@ -4,9 +4,12 @@
 
 - [X] Navbar
 - [X] Landing Section
-- [ ] About Us
-- [ ] Services
+- [X] About Us
+- [X] Services
+- [ ] Why Us
+- [ ] Reviews
 - [ ] Contact Us
+- [ ] Footer
 - [ ] Make it responsive
 - [ ] Setup Database
 - [ ] Auth

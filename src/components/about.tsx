@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex w-full justify-center min-h-80">
       <div className="flex w-4/5 justify-center items-center">
         <div className="w-1/2">
-          <div className="h-[400px] w-[350px] bg-black rounded-2xl relative">
+          <div className="h-[400px] w-[300px] bg-black rounded-2xl relative">
             <Image
               src="/images/barber-about.jpg"
               alt="about"

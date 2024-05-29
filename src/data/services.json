@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Haircut",
+        "price": 30,
+        "svg": "/svgs/trimmer.svg"
+    },
+    {
+        "id": 2,
+        "name": "Beard Trim",
+        "price": 20,
+        "svg": "/svgs/beard.svg"
+    },
+    {
+        "id": 3,
+        "name": "Facials",
+        "price": 25,
+        "svg": "/svgs/man.svg"
+    },
+    {
+        "id": 4,
+        "name": "Razor Shave",
+        "price": 20,
+        "svg": "/svgs/razor.svg"
+    },
+    {
+        "id": 5,
+        "name": "Hair Colour",
+        "price": 50,
+        "svg": "/svgs/hair-colour.svg"
+    }
+]
