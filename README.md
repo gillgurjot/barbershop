@@ -6,7 +6,7 @@
 - [X] Landing Section
 - [X] About Us
 - [X] Services
-- [ ] Why Us
+- [X] Why Us
 - [ ] Reviews
 - [ ] Contact Us
 - [ ] Footer

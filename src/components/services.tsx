@@ -3,11 +3,11 @@ import ServicesCarousel from "./services-carousel";
 
 const Services = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 bg-primary">
-      <div className="flex justify-center bg-orange-100">
-        <div className="flex w-4/5 justify-center items-center pt-20 pb-56">
+    <div className="flex flex-col justify-center items-center mt-20 bg-primary">
+      <div className="flex justify-center bg-orange-100 pt-20">
+        <div className="flex w-4/5 justify-center items-center pb-56">
           <div className="w-1/2">
-            <h2 className="text-primary font-merriweather font-semibold text-xl tracking-widest flex items-center">
+            <h2 className="text-primary uppercase font-merriweather font-semibold text-xl tracking-widest flex items-center">
               <hr className="w-12 border-2 border-primary mr-4" />
               Services
             </h2>
