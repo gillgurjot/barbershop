@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Michael Thompson",
+        "comment": "Fantastic service! The barbers at Gill's Barber Shop are highly skilled and friendly. They always understand exactly what I want and deliver beyond my expectations. The atmosphere is welcoming and professional, creating a comfortable environment for every visit. I've been to many barbershops, but this one truly stands out for its exceptional service and attention to detail. Highly recommend!"
+    },
+    {
+        "id": 2,
+        "name": "James Martinez",
+        "comment": "Great atmosphere and excellent haircuts. The team at Gill's Barber Shop is talented and attentive. Every cut is perfect, and the environment is relaxing, making each visit enjoyable. It's the best barbershop in town, offering top-notch service and skilled barbers who go above and beyond. Highly recommended!"
+    },
+    {
+        "id": 3,
+        "name": "David Robinson",
+        "comment": "Best barbershop in town! Personalized service and top-notch grooming set Gill's Barber Shop apart. The barbers are skilled, friendly, and always up-to-date with the latest trends. Their attention to detail ensures every cut is flawless. I wouldn't go anywhere else for my grooming needs. Highly recommended!"
+    },
+    {
+        "id": 4,
+        "name": "Christopher Harris",
+        "comment": "Attention to detail is exceptional at Gill's Barber Shop. The barbers listen to what you want and deliver high-quality service every time. The shop has a welcoming atmosphere, and I always leave feeling satisfied with my haircut. It's my go-to barbershop in town. Highly recommend!"
+    },
+    {
+        "id": 5,
+        "name": "Matthew Brown",
+        "comment": "Professional and welcoming. The team at Gill's Barber Shop makes you feel at home from the moment you walk in. Their expertise and dedication shine through in every cut, ensuring a great experience. I've never been disappointed with the service here. Highly recommend!"
+    },
+    {
+        "id": 6,
+        "name": "Daniel Wilson",
+        "comment": "A premium experience. The staff at Gill's Barber Shop is friendly, skilled, and attentive to detail. From the moment you step in, you know you're in good hands. I always leave with a fantastic haircut and a big smile. Highly recommend to everyone!"
+    },
+    {
+        "id": 7,
+        "name": "Joshua Lewis",
+        "comment": "The best grooming experience I've had. The barbers at Gill's Barber Shop are masters of their craft. The shop has a modern and clean ambiance with personalized service. I'm always impressed with the results. It's a cut above the rest! Highly recommend!"
+    },
+    {
+        "id": 8,
+        "name": "Andrew Taylor",
+        "comment": "Amazing service and skilled barbers at Gill's Barber Shop. The atmosphere is friendly and welcoming, making every visit enjoyable. I've never been disappointed with the results. It's my favorite barbershop in town. Highly recommend!"
+    },
+    {
+        "id": 9,
+        "name": "Benjamin Clark",
+        "comment": "Excellent barbershop! The staff is professional and talented. They always deliver a great haircut and make you feel comfortable. I've been a loyal customer for years and highly recommend Gill's Barber Shop to anyone looking for quality service!"
+    },
+    {
+        "id": 10,
+        "name": "Samuel Walker",
+        "comment": "Top-notch service at Gill's Barber Shop. The barbers are skilled and attentive, ensuring a great experience every time. I've never been disappointed with the results, and I always leave feeling satisfied. It's my go-to barbershop. Highly recommend!"
+    }
+]

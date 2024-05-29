@@ -7,7 +7,7 @@
 - [X] About Us
 - [X] Services
 - [X] Why Us
-- [ ] Reviews
+- [X] Reviews
 - [ ] Contact Us
 - [ ] Footer
 - [ ] Make it responsive

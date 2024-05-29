@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Landing from "@/components/landing";
+import Reviews from "@/components/reviews";
 import Services from "@/components/services";
 import WhyUs from "@/components/why-us";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Services />
       <WhyUs />
+      <Reviews />
     </div>
   );
 }
