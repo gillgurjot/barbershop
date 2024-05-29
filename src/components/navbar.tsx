@@ -9,8 +9,8 @@ const Navbar = () => {
         className="cursor-pointer"
         src="/images/barber-logo-white.png"
         alt="logo"
-        width={40}
-        height={40}
+        width={45}
+        height={45}
       />
       <div className="flex items-center justify-center gap-10 font-semibold">
         <Button

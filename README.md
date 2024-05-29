@@ -9,8 +9,9 @@
 - [X] Why Us
 - [X] Reviews
 - [X] Contact Us
+- [X] Contact Form
 - [X] Toast
-- [ ] Footer
+- [X] Footer
 - [ ] Make it responsive
 - [ ] Setup Database
 - [ ] Auth

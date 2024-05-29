@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import ContactUs from "@/components/contact";
+import Footer from "@/components/footer";
 import Landing from "@/components/landing";
 import Reviews from "@/components/reviews";
 import Services from "@/components/services";
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyUs />
       <Reviews />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

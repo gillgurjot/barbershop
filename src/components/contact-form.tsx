@@ -30,7 +30,6 @@ const ContactForm = () => {
 
   const onSubmit = (data: z.infer<typeof schema>) => {
     toast.success("Thank you for your message!");
-    console.log(data);
   };
 
   useEffect(() => {

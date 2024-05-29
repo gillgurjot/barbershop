@@ -3,8 +3,8 @@ import { Button } from "./ui/button";
 
 const Landing = () => {
   return (
-    <div className="bg-[url('/images/landing.jpg')] relative top-[-10vh] bg-zinc-700 bg-blend-multiply h-[70vh] flex items-center justify-center">
-      <div className="w-2/3 pt-5">
+    <div className="bg-[url('/images/landing.jpg')] relative top-[-15vh] bg-zinc-700 bg-blend-multiply h-[75vh] flex items-center justify-center">
+      <div className="w-2/3 mt-10">
         <h1 className="font-merriweather text-6xl font-bold text-white">
           Best Barber Shop{" "}
           <span className="underline text-primary">in Town</span>
