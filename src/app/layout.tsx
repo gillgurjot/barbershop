@@ -3,6 +3,7 @@ import { Montserrat, Merriweather } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/sonner";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -16,8 +17,8 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "Gill Barber Shop",
-  description: "Gill Barber Shop is the best barber shop in town.",
+  title: "Gill's Barber Shop",
+  description: "Gill's Barber Shop is the best barber shop in town.",
 };
 
 export default function RootLayout({
@@ -34,6 +35,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Toaster />
           <Navbar />
           {children}
         </ThemeProvider>

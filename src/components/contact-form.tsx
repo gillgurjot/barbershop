@@ -14,6 +14,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { toast } from "sonner";
+import { useEffect } from "react";
 
 const schema = z.object({
   fullName: z.string().min(1, "Name is required"),
@@ -26,9 +28,17 @@ const ContactForm = () => {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (values: z.infer<typeof schema>) => {
-    console.log(values); //TODO
+  const onSubmit = (data: z.infer<typeof schema>) => {
+    toast.success("Thank you for your message!");
+    console.log(data);
   };
+
+  useEffect(() => {
+    if (form.formState.isSubmitSuccessful) {
+      form.reset({ email: "", fullName: "", message: "" });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [form.formState, form.reset]);
 
   return (
     <Card className="w-4/5 shadow-lg">

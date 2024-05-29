@@ -9,7 +9,7 @@
 - [X] Why Us
 - [X] Reviews
 - [X] Contact Us
-- [ ] Toast
+- [X] Toast
 - [ ] Footer
 - [ ] Make it responsive
 - [ ] Setup Database
